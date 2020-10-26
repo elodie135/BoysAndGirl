@@ -7,7 +7,7 @@ public final class App {
 
   private App() {}
 
-  public String helloBoyAndGirl() {
+  public static String helloBoyAndGirl() {
     return ("Hello World");
   }
 

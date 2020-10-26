@@ -1,18 +1,19 @@
 package fr.elodie;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple App.
  */
 class AppTest {
-    /**
-     * Rigorous Test.
-     */
-    @Test
-    void testApp() {
-        assertEquals(1, 1);
-    }
+
+  /**
+   * Rigorous Test.
+   */
+  @Test
+  void testApp() {
+    assertEquals("Hello World", App.helloBoyAndGirl());
+  }
 }
