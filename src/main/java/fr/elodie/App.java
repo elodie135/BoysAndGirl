@@ -5,17 +5,19 @@ package fr.elodie;
  */
 public final class App {
 
-  private App() {}
+	private App() {
+	}
 
-  public static String helloBoyAndGirl() {
-    return ("Hello World");
-  }
+	public static String helloBoyAndGirl() {
+		return ("Hello Joseph");
+	}
 
-  /**
-   * Says hello to the world.
-   * @param args The arguments of the program.
-   */
-  public static void main(String[] args) {
-    System.out.println("Hello World!");
-  }
+	/**
+	 * Says hello to the world.
+	 * 
+	 * @param args The arguments of the program.
+	 */
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
 }

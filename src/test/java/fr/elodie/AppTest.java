@@ -9,11 +9,15 @@ import org.junit.jupiter.api.Test;
  */
 class AppTest {
 
-  /**
-   * Rigorous Test.
-   */
-  @Test
-  void testApp() {
-    assertEquals("Hello World", App.helloBoyAndGirl());
-  }
+	/**
+	 * Rigorous Test.
+	 */
+	@Test
+	void testApp() {
+		assertEquals("Hello World", App.helloBoyAndGirl());
+	}
+
+	void testJoseph() {
+		assertEquals("Hello Joseph", App.helloBoyAndGirl());
+	}
 }
