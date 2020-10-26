@@ -8,7 +8,7 @@ public final class App {
   private App() {}
 
   public static String helloBoyAndGirl() {
-    return ("Hello World");
+    return ("Hello Matthieu");
   }
 
   /**
