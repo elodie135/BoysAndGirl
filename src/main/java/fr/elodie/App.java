@@ -7,6 +7,10 @@ public final class App {
 
   private App() {}
 
+  public String helloBoyAndGirl() {
+    return ("Hello World");
+  }
+
   /**
    * Says hello to the world.
    * @param args The arguments of the program.
